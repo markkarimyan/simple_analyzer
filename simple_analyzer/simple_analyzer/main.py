@@ -15,6 +15,8 @@ if __name__ == "__main__":
     analyzer = Analyzer()
     start_time = time.time()
 
+    print("Simple Analyzer running...")
+
     while True:
         num = random.randint(1, 100)
         analyzer.add_number(num)
